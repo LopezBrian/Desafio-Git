@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(19, 18, 18, 0.93);
+}
+
+@font-face{
+    font-family: dmc;
+    src: url(DMC5Font.otf);
+}
+
+
+.titulo .imagen{
+    display: flexbox;
+}
+
+.titulo{
+    width: 20%;
+    margin: 20px auto;
+}
+
+.imagen{
+    width: 50%;
+    margin: 0 auto 60px auto;
+}
+
+h1{
+    font-family: dmc, cursive;
+    font-size: 55px;
+    color: #FFF;
+}
+
+img{
+    width: 100%;
+}
